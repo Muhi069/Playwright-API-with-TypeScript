@@ -1,0 +1,112 @@
+{
+  "config": {
+    "configFile": "C:\\BS-1367\\learn-playwright\\playwright.config.ts",
+    "rootDir": "C:/BS-1367/learn-playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 1114.2609999775887
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/BS-1367/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/BS-1367/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "apitest/fakestore-api.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.36.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apitest\\fakestore-api.test.ts",
+      "file": "apitest/fakestore-api.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "update to cart +",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 720,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "{\n  id: \u001b[33m7\u001b[39m,\n  userId: \u001b[33m3\u001b[39m,\n  date: \u001b[32m'2019-12-10'\u001b[39m,\n  products: [ { productId: \u001b[33m1\u001b[39m, quantity: \u001b[33m3\u001b[39m } ]\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-07-18T13:19:24.424Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccd12164232780b64b94-c0f11ca073593870f093",
+          "file": "apitest/fakestore-api.test.ts",
+          "line": 224,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
